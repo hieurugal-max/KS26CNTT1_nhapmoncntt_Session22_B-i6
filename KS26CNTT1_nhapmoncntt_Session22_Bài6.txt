@@ -1,0 +1,24 @@
+Bài 6: Ứng dụng AI trong khắc phục lỗi Git Permission Denied
+1. Sử dụng Prompt AI 3 thành phần
+Prompt sử dụng:
+- Vai trò: Bạn là người có kinh nghiệm sử dụng Git và GitHub.
+- Bối cảnh: Tôi đang đẩy code lên GitHub thì Terminal báo lỗi error: open(".git/FETCH_HEAD"): Permission denied. Tôi đã thử chạy lại nhưng vẫn không được.
+AI giải thích:
+
+Lỗi này xảy ra do Git không có quyền truy cập vào file FETCH_HEAD trong thư mục .git. Có thể do quyền truy cập bị hạn chế hoặc file đang được chương trình khác sử dụng
+
+Ảnh minh chứng cần chụp:
+- Ảnh Terminal đã mở bằng quyền Administrator
+- Ảnh kết quả chạy lệnh Git
+- Khoanh vùng thông báo lỗi hoặc kết quả, che thông tin cá nhân và token nếu có
+3. Tin nhắn nhờ giảng viên hỗ trợ
+Em chào thầy ạ
+Em đang gặp lỗi khi đẩy code lên GitHub
+- Lỗi gặp phải: error: open(".git/FETCH_HEAD"): Permission denied
+- Môi trường: Windows, Git và Terminal
+- Các bước xảy ra lỗi: Em mở thư mục dự án, thực hiện lệnh Git để đẩy code lên GitHub thì Terminal báo lỗi không có quyền truy cập file FETCH_HEAD
+- Cách đã thử: Em đã mở Terminal bằng quyền Run as Administrator và chạy lại lệnh nhưng vẫn chưa được
+- Kết quả mong muốn: Đẩy code lên GitHub thành công
+- Kết quả thực tế: Terminal vẫn báo lỗi Permission denied
+Em gửi kèm ảnh chụp màn hình để thầy kiểm tra. Mong thầy hướng dẫn em cách khắc phục ạ
+Em cảm ơn thầy
